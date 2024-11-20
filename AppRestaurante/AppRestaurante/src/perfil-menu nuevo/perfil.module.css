@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagen_perfil {
+    height: 10rem;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 12px;
+    .cont_foto {
+        height: 12rem;
+        width: 12rem;
+        position: absolute;
+        bottom: -6rem;
+      
+        img {
+            border-radius: 50%;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.datos_perfil {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    .cont_dato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dato {
+        border:none;
+        border-bottom: solid 1px black;
+        height: 3rem;
+        width: 15rem;
+        margin: 0 3rem;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+    }
+    .dato:focus{
+        outline: none;
+    }
+}
+

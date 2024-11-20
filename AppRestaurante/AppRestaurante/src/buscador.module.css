@@ -1,0 +1,268 @@
+.encabezado{
+    height: 90%;
+    top:0;
+    margin-bottom:2rem;
+    /* position: fixed; */
+}
+
+.Navbar {
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.343);
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+
+}
+.logo {
+    height: 4.9rem;
+    width: 6rem;
+
+}
+ 
+
+.carrito_icono {
+    height: 100%;
+    width: 4rem;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restaurantes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+.resto {
+    /* background-color: #eeeef1; */
+    height: 15rem;
+    width: 15rem;
+    border-radius: 8px;
+
+}
+img {
+    width: 100%;
+    height: 100%;
+    
+
+}
+.imagen_resto {
+    height: 10rem;
+    width: 100%;
+    background: aqua;
+
+ 
+}
+
+.desc_resto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.precio_val {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valoracion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buscar{
+    width: 40%;
+    height: 2.5rem;
+}
+.buscador{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: end;
+   
+}
+
+
+
+
+.resultado{
+    /* margin-top: 3.5rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10%;
+    justify-content: center;
+   
+}
+
+
+
+.restaurantes{
+    width: 12rem;
+    height: 17rem;
+    display: flex;
+    
+    padding: 2px;
+    box-shadow: 4px 11px 20px 0px gray;
+    border-radius: 9px;
+    text-decoration: none;
+    .resto{
+        width: 15rem;
+        border-radius: 8px;
+        .imagen_resto{
+            height: 50%;
+            width: 98.5%;
+            border: none;
+            /* ba */
+            border-radius: 8px;
+            background-size: cover;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .desc_resto{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+        /* align-items: left; */
+        text-align: left;
+		padding: 10px;
+        color:black;
+        
+        .name{
+            font-size: 17px;
+            width: 171px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .descripcion{
+            font-size: 12px;
+            color: gray;
+        }
+        
+        }                    
+        
+    }
+}
+
+.cont_precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boton_carrito{
+    height: 30px;
+    border-radius: 20px;
+    background: lightblue;
+    border: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.cantidad{
+
+        border: solid 0.5px gray;
+        border-radius: 20px;
+        /* width: 76px; */
+        display: flex;
+        justify-content: space-evenly;
+        place-items: center;
+    
+    .boton{
+        background: transparent;
+        border: none;
+    }
+}
+.icono{
+    background-color: black;
+    background-image: url("https://www.nicepng.com/png/detail/285-2851862_add-to-cart-shopping-cart-icon-cdr.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.comensales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 12rem;
+    gap: 3px;
+    margin-left: 46px;
+    button{
+        height: 2rem;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightskyblue;
+    }
+    input{
+        height: 20px;
+        width: 88%;
+        text-align: center;
+    }
+
+}
+.contendorFiltroComensal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.metodosDePago {
+    margin-top: 20px;
+  }
+  
+  .botonPago {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .botonPago:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+  }
+  

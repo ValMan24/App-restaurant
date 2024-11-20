@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 3rem;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .logo {
+        height: 100%;
+        width: 4rem;
+        background-color: aqua;
+
+    }
+
+    .carrito_icono {
+        height: 100%;
+        width: 4rem;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.restaurantes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+
+    .resto {
+        background-color: #eeeef1;
+        height: 15rem;
+        width: 15rem;
+        border-radius: 8px;
+
+        .imagen_resto {
+            height: 8rem;
+            width: 100%;
+            background: aqua;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .desc_resto {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px;
+
+            .precio_val {
+                display: flex;
+                justify-content: space-between;
+
+                .valoracion {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+    }
+}
+
